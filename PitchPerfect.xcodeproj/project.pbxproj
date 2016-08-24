@@ -16,7 +16,7 @@
 		E15F63D11D6740A400C6A2E2 /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F63D01D6740A400C6A2E2 /* PitchPerfectUITests.swift */; };
 		E15F63DF1D69B63B00C6A2E2 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F63DE1D69B63B00C6A2E2 /* PlaySoundsViewController.swift */; };
 		E15F63E11D6CB1C300C6A2E2 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F63E01D6CB1C300C6A2E2 /* PlaySoundsViewController+Audio.swift */; };
-		E15F63E31D6DA01800C6A2E2 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = E15F63E21D6DA01800C6A2E2 /* readme.md */; };
+		E15F63E51D6DA18200C6A2E2 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = E15F63E41D6DA18200C6A2E2 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		E15F63D21D6740A400C6A2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E15F63DE1D69B63B00C6A2E2 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		E15F63E01D6CB1C300C6A2E2 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
-		E15F63E21D6DA01800C6A2E2 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		E15F63E41D6DA18200C6A2E2 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +83,7 @@
 		E15F63A41D6740A300C6A2E2 = {
 			isa = PBXGroup;
 			children = (
+				E15F63E41D6DA18200C6A2E2 /* readme.md */,
 				E15F63AF1D6740A300C6A2E2 /* PitchPerfect */,
 				E15F63C41D6740A300C6A2E2 /* PitchPerfectTests */,
 				E15F63CF1D6740A400C6A2E2 /* PitchPerfectUITests */,
@@ -106,7 +107,6 @@
 				E15F63B01D6740A300C6A2E2 /* AppDelegate.swift */,
 				E15F63B21D6740A300C6A2E2 /* RecordSoundsViewController.swift */,
 				E15F63B41D6740A300C6A2E2 /* Main.storyboard */,
-				E15F63E21D6DA01800C6A2E2 /* readme.md */,
 				E15F63DE1D69B63B00C6A2E2 /* PlaySoundsViewController.swift */,
 				E15F63E01D6CB1C300C6A2E2 /* PlaySoundsViewController+Audio.swift */,
 				E15F63B71D6740A300C6A2E2 /* Assets.xcassets */,
@@ -268,7 +268,7 @@
 				E15F63B31D6740A300C6A2E2 /* RecordSoundsViewController.swift in Sources */,
 				E15F63E11D6CB1C300C6A2E2 /* PlaySoundsViewController+Audio.swift in Sources */,
 				E15F63DF1D69B63B00C6A2E2 /* PlaySoundsViewController.swift in Sources */,
-				E15F63E31D6DA01800C6A2E2 /* readme.md in Sources */,
+				E15F63E51D6DA18200C6A2E2 /* readme.md in Sources */,
 				E15F63B11D6740A300C6A2E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
