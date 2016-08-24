@@ -55,6 +55,13 @@ class PlaySoundsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupAudio()
+        // Fix squished buttons on devices with small screens       
+        snailButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
+        chipmunkButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
+        rabbitButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
+        vaderButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
+        echoButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
+        reverbButton.imageView?.contentMode = UIViewContentMode.ScaleAspectFit
     }
     
     override func viewWillAppear(animated: Bool) {
