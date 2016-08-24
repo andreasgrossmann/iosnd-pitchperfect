@@ -16,7 +16,6 @@
 		E15F63D11D6740A400C6A2E2 /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F63D01D6740A400C6A2E2 /* PitchPerfectUITests.swift */; };
 		E15F63DF1D69B63B00C6A2E2 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F63DE1D69B63B00C6A2E2 /* PlaySoundsViewController.swift */; };
 		E15F63E11D6CB1C300C6A2E2 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F63E01D6CB1C300C6A2E2 /* PlaySoundsViewController+Audio.swift */; };
-		E15F63E51D6DA18200C6A2E2 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = E15F63E41D6DA18200C6A2E2 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -268,7 +267,6 @@
 				E15F63B31D6740A300C6A2E2 /* RecordSoundsViewController.swift in Sources */,
 				E15F63E11D6CB1C300C6A2E2 /* PlaySoundsViewController+Audio.swift in Sources */,
 				E15F63DF1D69B63B00C6A2E2 /* PlaySoundsViewController.swift in Sources */,
-				E15F63E51D6DA18200C6A2E2 /* readme.md in Sources */,
 				E15F63B11D6740A300C6A2E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
