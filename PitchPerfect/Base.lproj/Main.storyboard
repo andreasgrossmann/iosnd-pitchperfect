@@ -127,53 +127,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="RDX-bQ-dRb">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="NeO-ca-VWx">
                                 <rect key="frame" x="20" y="64" width="560" height="536"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="ITN-6u-2x9">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmX-sj-guU">
                                         <rect key="frame" x="0.0" y="0.0" width="560" height="179"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmX-sj-guU">
-                                                <rect key="frame" x="0.0" y="79" width="560" height="100"/>
-                                                <state key="normal" image="recordButton"/>
-                                                <connections>
-                                                    <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BYT-eW-LWh"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hsU-Lx-uMs">
+                                        <state key="normal" image="recordButton"/>
+                                        <connections>
+                                            <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BYT-eW-LWh"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27m-BF-eNz">
                                         <rect key="frame" x="0.0" y="179" width="560" height="178"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27m-BF-eNz">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="178"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="k0Q-Fb-2FJ">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nb5-FQ-FAC">
                                         <rect key="frame" x="0.0" y="357" width="560" height="179"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nb5-FQ-FAC">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="50"/>
-                                                <state key="normal" image="stopRecordingButton"/>
-                                                <connections>
-                                                    <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OmX-lY-OJC"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
+                                        <state key="normal" image="stopRecordingButton"/>
+                                        <connections>
+                                            <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OmX-lY-OJC"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="RDX-bQ-dRb" secondAttribute="trailing" id="Jjb-50-HzF"/>
-                            <constraint firstItem="RDX-bQ-dRb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="fES-s3-M4o"/>
-                            <constraint firstItem="RDX-bQ-dRb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="sMm-9N-sLH"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RDX-bQ-dRb" secondAttribute="bottom" id="uvj-aQ-VFn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NeO-ca-VWx" secondAttribute="trailing" id="63N-aw-srI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NeO-ca-VWx" secondAttribute="bottom" id="DKI-qt-sbK"/>
+                            <constraint firstItem="NeO-ca-VWx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="iaV-Ie-jE9"/>
+                            <constraint firstItem="NeO-ca-VWx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ms6-26-DhN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fkb-HP-ATo"/>
